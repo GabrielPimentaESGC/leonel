@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Registo</title>
+  <link rel="stylesheet" href="css/registo.css">
+  <script src="js/registo.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Faça aqui o seu registo</h1>
+      <p>Preencha as caixas de texto com suas informações</p>
+    </div>
+
+    <section class="form-section">
+      <div class="input-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+      </div>
+      <div class="input-group">
+        <label for="apelido">Apelido:</label>
+        <input type="text" id="apelido" name="apelido">
+      </div>
+      <div class="input-group">
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data" name="data">
+      </div>
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="input-group">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+      </div>
+      <div class="input-group">
+        <label for="confirmar-senha">Confirmar Senha:</label>
+        <input type="password" id="confirmar-senha" name="confirmar-senha">
+      </div>
+    </section>
+
+    <section class="form-section">
+      <div class="input-group">
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="nif">NIF:</label>
+        <input type="text" id="nif" name="nif">
+      </div>
+      <div class="input-group">
+        <label for="codigo-postal">Código Postal:</label>
+        <input type="text" id="codigo-postal" name="codigo-postal">
+      </div>
+      <p>Ja tem uma conta ?! <a href="entrar.html">Faça o Login!</a></p>
+      <button onclick="registrar()">Registar</button>
+    </section>
+  </div>
+
+</body>
+
+</html>

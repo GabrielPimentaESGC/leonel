@@ -1,0 +1,85 @@
+body {
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white ;
+    column-rule: white;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .4s;
+}
+
+.navbar a:hover {
+    color: darkmagenta;
+}
+
+.image-container {
+    text-align: center; 
+    margin-top: 140px; 
+}
+
+.centered-image {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.Início {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.inicio-content {
+    max-width: 50%; 
+}
+
+.titulo1 {
+    font-size: 50px;
+    color: black;
+}
+
+.paragrafo {
+    font-size: 20px;
+    color: black;
+    text-decoration: solid;
+}
+
+a.esgc {
+    color: inherit;
+    text-decoration: none;
+}
+
